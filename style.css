@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.front{
+    height: 65%;
+    width: 48%;
+    border: 3px solid rgb(2, 2, 48);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.front .nav{
+    width: 90%;
+    height: 30%;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.front .nav .logo{
+    height: 95%;
+    width: 25%;
+    border-right: 3px solid black;
+    border-right-style: groove;
+    margin-right: 5px;
+}
+.front .nav .logo img{
+    height: 100%;
+    width: 100%;
+}
+.front .nav .add{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid rgb(0, 162, 255); */
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.front .nav .add .name{
+    width: 80%;
+    height: 30%;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.front .nav .add .address{
+    width: 95%;
+    height: 30%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.front .nav .button{
+    height: 30%;
+    width: 30%;
+    border-radius: 20px;
+    background: rgb(1, 40, 1);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.front .main{
+    width: 90%;
+    height: 70%;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.front .main .nos{
+    width: 99%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .class{
+    width: 48%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.front .main .addmision{
+    width: 48%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .nof{
+    width: 48%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.front .main .nom{
+    width: 48%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .addres{
+    width: 99%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .p1{
+    width: 48%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.front .main .p2{
+    width: 48%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .gardiant{
+    width: 99%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .router{
+    width: 99%;
+    height: 10%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    padding-top: 15px;
+}
+.front .main .doi{
+    width: 20%;
+    height: 10%;
+    /* border-bottom: 2px solid black;
+    border-bottom-style: dashed; */
+    padding-top: 15px;
+}
+.front .main .sign{
+    width: 20%;
+    height: 10%;
+    /* border-bottom: 2px solid black; */
+    margin-left: 550px;
+    
+    padding-top: 15px;
+}
+.back{
+    height: 85%;
+    width: 35%;
+    border: 3px solid rgb(2, 2, 48);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.back .bkhead{
+    height: 10%;
+    width: 80%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.back .bkmain{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.back .bkmain .img1{
+    height: 35%;
+    width: 35%;
+    border: 1px solid black;
+}
+.back .bksign{
+    width: 80%;
+    /* height: 2%; */
+    display: flex;
+    justify-content: flex-end;
+}
+.back .bktitle {
+    width: 80%;
+    height: 11%;
+    color: rgb(152, 2, 2);
+    border-left: 2px solid rgb(1, 34, 1);
+    border-bottom: 2px solid rgb(1, 34, 1);
+    border-left-style: dashed;
+     border-bottom-style: dashed;
+    padding-left: 10px;
+}
